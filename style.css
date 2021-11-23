@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+#links{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 100px;
+}
+#img1{
+    height: 200px;
+    width: auto;
+}
+#section1{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+#title{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+#title h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+button{
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 95px;
+    height: 30px;
+}
+.information{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.img2{
+    width: 200px;
+    height: auto;
+}
+.image{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 12px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+blockquote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+figure{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+figcaption{
+    font-size: 14px;
+    font-weight: bold;
+}
+#quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+#call{
+    font-size: 18px;
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.button1{
+    border: 1px solid white;
+}
+#callandbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.id{
+    font-size: 22px;
+    font-weight: bold;
+}
+footer{
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
